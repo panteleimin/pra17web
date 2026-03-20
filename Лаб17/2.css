@@ -1,0 +1,49 @@
+nav {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+
+    }
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.burger {
+    display: none;
+    width: 30px;
+}
+
+.burger img {
+    width: 100%;
+}
+
+@media (max-width: 400px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        background-color: #ffffff;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    .burger {
+        display: block;
+    }
+}
+
+.content {
+    padding: 20px;
+}

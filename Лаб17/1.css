@@ -1,0 +1,21 @@
+.block {
+    border: 1px solid #333;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.delete-btn {
+    position: relative;
+    bottom: 100px;
+    left: 150px;
+    margin-top: 10px;
+    background-color: #a7a7a7;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.delete-btn:hover {
+    background-color: #454545;
+}
